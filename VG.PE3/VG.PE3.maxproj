@@ -2,7 +2,7 @@
 	"name" : "VG.PE3",
 	"version" : 1,
 	"creationdate" : 3664900194,
-	"modificationdate" : 3664900218,
+	"modificationdate" : 3664907088,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,19 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"groove-poly.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+
+		}
+,
+		"data" : 		{
+			"midimap1.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
 			}
 
 		}
