@@ -2,7 +2,7 @@
 	"name" : "VG.PE3",
 	"version" : 1,
 	"creationdate" : 3664900194,
-	"modificationdate" : 3664907088,
+	"modificationdate" : 3665146005,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -17,6 +17,11 @@
 			}
 ,
 			"groove-poly.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"transientSlice.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

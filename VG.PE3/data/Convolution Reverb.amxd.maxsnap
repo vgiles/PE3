@@ -1,0 +1,34 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "Convolution Reverb.amxd",
+	"origin" : "Convolution Reverb.amxd",
+	"type" : "amxd",
+	"subtype" : "Undefined",
+	"embed" : 0,
+	"snapshot" : 	{
+		"name" : "Convolution Reverb.amxd",
+		"origname" : "~/Music/Ableton/Factory Packs/Max for Live Essentials/Max Audio Effect/Convolution Reverb/Convolution Reverb.amxd",
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"Dry/Wet" : 40.551181102362186,
+				"Gain" : 0.0,
+				"Predelay" : 0.0,
+				"Width" : 100.0,
+				"blob" : 				{
+					"Decay" : [ 100 ],
+					"Drop A" : [ "Macintosh HD:/Users/vin/Music/Ableton/Factory Packs/Max for Live Essentials/Max Audio Effect/Convolution Reverb/IRs/06 Bigger Spaces/BM7 West Church.aif" ],
+					"PersistenceA" : [ "" ],
+					"PersistenceB" : [ "" ],
+					"PersistenceC" : [ "" ],
+					"Size" : [ 100 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

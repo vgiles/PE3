@@ -1,0 +1,80 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "Convolution Reverb Pro.amxd",
+	"origin" : "Convolution Reverb Pro.amxd",
+	"type" : "amxd",
+	"subtype" : "Undefined",
+	"embed" : 0,
+	"snapshot" : 	{
+		"name" : "Convolution Reverb Pro.amxd",
+		"origname" : "~/Music/Ableton/Factory Packs/Max for Live Essentials/Max Audio Effect/Convolution Reverb/Convolution Reverb Pro.amxd",
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"Dry/Wet" : 50.0,
+				"EQ Hi Freq" : 15539.037547531752352,
+				"EQ Hi Gain" : 0.0,
+				"EQ Hi S" : 1.0,
+				"EQ Lo Freq" : 4519.371734054848275,
+				"EQ Lo Gain" : 0.0,
+				"EQ Lo S" : 1.0,
+				"EQ Mid Freq" : 8691.717025163834478,
+				"EQ Mid Gain" : 0.0,
+				"EQ Mid Q" : 0.71,
+				"EQ On" : 1.0,
+				"Gain" : 0.0,
+				"Mod Amount" : 50.0,
+				"Mod On" : 0.0,
+				"Mod Rate" : 1.0,
+				"Mod Type" : 0.0,
+				"Mod Widen" : 0.0,
+				"Pos Depth" : 0.0,
+				"Pos On" : 1.0,
+				"Pos Pan" : 0.0,
+				"Predelay" : 0.0,
+				"Shape" : 0.0,
+				"Width" : 100.0,
+				"blob" : 				{
+					"Damp Hi S" : [ 1 ],
+					"Damp High Decay" : [ 100 ],
+					"Damp High Freq" : [ 10000.0 ],
+					"Damp Lo Decay" : [ 100 ],
+					"Damp Lo Freq" : [ 100.0 ],
+					"Damp Lo S" : [ 1 ],
+					"Damp Mid Decay" : [ 100 ],
+					"Damp Mid Freq" : [ 1000.0 ],
+					"Damp Mid Q" : [ 0.71 ],
+					"Damp On" : [ 1.0 ],
+					"Decay" : [ 100 ],
+					"Drop A" : [ "" ],
+					"Drop B" : [ "" ],
+					"IR Display" : [ 0.0 ],
+					"IR Mode" : [ 0.0 ],
+					"Length Mode" : [ 0 ],
+					"PersistenceA" : [ "" ],
+					"PersistenceA[1]" : [ "" ],
+					"PersistenceB" : [ "" ],
+					"PersistenceB[1]" : [ "" ],
+					"PersistenceC" : [ "" ],
+					"PersistenceC[1]" : [ "" ],
+					"Shape Direct Mode" : [ 0.0 ],
+					"Shape Early" : [ 100 ],
+					"Shape Fade In" : [ 0 ],
+					"Shape Fade Out" : [ 0 ],
+					"Shape On" : [ 1.0 ],
+					"Shape Percentage Length" : [ 100 ],
+					"Shape Real Length" : [ 15000 ],
+					"Shape Reverse" : [ 0.0 ],
+					"Size" : [ 100 ],
+					"Tab View" : [ 0.0 ],
+					"Tab Open" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
