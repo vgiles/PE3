@@ -85,7 +85,7 @@
 							"origname" : "~/Music/Ableton/Factory Packs/Max for Live Essentials/Max Audio Effect/Convolution Reverb/Convolution Reverb.amxd",
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
-									"Dry/Wet" : 40.551181102362186,
+									"Dry/Wet" : 27.952755905511818,
 									"Gain" : 0.0,
 									"Predelay" : 0.0,
 									"Width" : 100.0,
@@ -120,7 +120,7 @@
 										"origname" : "~/Music/Ableton/Factory Packs/Max for Live Essentials/Max Audio Effect/Convolution Reverb/Convolution Reverb.amxd",
 										"valuedictionary" : 										{
 											"parameter_values" : 											{
-												"Dry/Wet" : 40.551181102362186,
+												"Dry/Wet" : 27.952755905511818,
 												"Gain" : 0.0,
 												"Predelay" : 0.0,
 												"Width" : 100.0,
