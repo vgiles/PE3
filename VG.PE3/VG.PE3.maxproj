@@ -2,8 +2,8 @@
 	"name" : "VG.PE3",
 	"version" : 1,
 	"creationdate" : 3664900194,
-	"modificationdate" : 3665146005,
-	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
+	"modificationdate" : 3665218437,
+	"viewrect" : [ 25.0, 103.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -25,6 +25,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"percussionSlice.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -33,6 +38,10 @@
 				"kind" : "textfile",
 				"local" : 1
 			}
+
+		}
+,
+		"externals" : 		{
 
 		}
 

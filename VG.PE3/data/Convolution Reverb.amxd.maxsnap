@@ -9,7 +9,7 @@
 	"embed" : 0,
 	"snapshot" : 	{
 		"name" : "Convolution Reverb.amxd",
-		"origname" : "~/Music/Ableton/Factory Packs/Max for Live Essentials/Max Audio Effect/Convolution Reverb/Convolution Reverb.amxd",
+		"origname" : "~/GitHub/PE3/VG.PE3/patchers/Convolution Reverb.amxd",
 		"valuedictionary" : 		{
 			"parameter_values" : 			{
 				"Dry/Wet" : 27.952755905511818,
