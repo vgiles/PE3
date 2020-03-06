@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -38,6 +38,30 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 567.0, 282.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 501.0, 146.5, 70.0, 22.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontface" : 1,
 					"id" : "obj-129",
@@ -118,8 +142,8 @@
 					"patching_rect" : [ 61.0, 321.5, 163.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 2.0, 490.732192499999996, 98.0, 33.0 ],
-					"text" : "t1transientSlice\n on/off",
+					"presentation_rect" : [ 2.0, 490.732192499999996, 100.656708000000094, 33.0 ],
+					"text" : "percussiveSlice\non/off",
 					"textjustification" : 1
 				}
 
@@ -189,7 +213,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -339,7 +363,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -489,7 +513,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -634,7 +658,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1139.0, 58.0, 84.0, 22.0 ],
+					"patching_rect" : [ 1154.0, 57.999990000000025, 84.0, 22.0 ],
 					"text" : "loadmess -48."
 				}
 
@@ -818,7 +842,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1142.0, 102.499990000000025, 50.0, 22.0 ],
+					"patching_rect" : [ 1154.0, 106.49998000000005, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 109.367829000000029, 422.49998000000005, 50.0, 22.0 ]
 				}
@@ -906,7 +930,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1142.0, 134.0, 91.0, 22.0 ],
+					"patching_rect" : [ 1154.0, 137.999990000000025, 91.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 109.367829000000029, 453.999990000000025, 91.0, 22.0 ],
 					"text" : "absthreshoff $1"
@@ -1013,7 +1037,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 619.0, 615.0, 369.0, 196.0 ],
+					"patching_rect" : [ 524.0, 612.0, 369.0, 196.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 520.25, 46.0, 369.0, 196.0 ],
@@ -1053,11 +1077,11 @@
 									"Width" : 100.0,
 									"blob" : 									{
 										"Decay" : [ 100 ],
-										"Drop A" : [ "Macintosh HD:/Users/vin/Music/Ableton/Factory Packs/Max for Live Essentials/Max Audio Effect/Convolution Reverb/IRs/06 Bigger Spaces/BM7 West Church.aif" ],
 										"PersistenceA" : [ "" ],
+										"Size" : [ 100 ],
 										"PersistenceB" : [ "" ],
 										"PersistenceC" : [ "" ],
-										"Size" : [ 100 ]
+										"Drop A" : [ "Macintosh HD:/Users/vin/Music/Ableton/Factory Packs/Max for Live Essentials/Max Audio Effect/Convolution Reverb/IRs/06 Bigger Spaces/BM7 West Church.aif" ]
 									}
 
 								}
@@ -1088,11 +1112,11 @@
 												"Width" : 100.0,
 												"blob" : 												{
 													"Decay" : [ 100 ],
-													"Drop A" : [ "Macintosh HD:/Users/vin/Music/Ableton/Factory Packs/Max for Live Essentials/Max Audio Effect/Convolution Reverb/IRs/06 Bigger Spaces/BM7 West Church.aif" ],
 													"PersistenceA" : [ "" ],
+													"Size" : [ 100 ],
 													"PersistenceB" : [ "" ],
 													"PersistenceC" : [ "" ],
-													"Size" : [ 100 ]
+													"Drop A" : [ "Macintosh HD:/Users/vin/Music/Ableton/Factory Packs/Max for Live Essentials/Max Audio Effect/Convolution Reverb/IRs/06 Bigger Spaces/BM7 West Church.aif" ]
 												}
 
 											}
@@ -1760,7 +1784,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 731.0, 128.0, 128.0 ],
+					"patching_rect" : [ 107.0, 808.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 43.0, 222.0, 444.0 ],
 					"proportion" : 0.5,
@@ -1777,7 +1801,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 238.0, 746.0, 128.0, 128.0 ],
+					"patching_rect" : [ 122.0, 823.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 224.5, 43.0, 289.5, 444.0 ],
 					"proportion" : 0.5,
@@ -1794,7 +1818,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 253.0, 761.0, 128.0, 128.0 ],
+					"patching_rect" : [ 137.0, 838.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 515.0, 43.0, 379.5, 444.0 ],
 					"proportion" : 0.5,
@@ -2066,6 +2090,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-54", 0 ],
+					"midpoints" : [ 249.5, 571.0, 533.5, 571.0 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -2087,7 +2112,26 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 6 ],
+					"midpoints" : [ 1041.0, 325.999995000000013, 1163.5, 325.999995000000013 ],
 					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-124", 0 ],
+					"midpoints" : [ 510.5, 246.0, 297.0, 246.0, 297.0, 348.0, 234.0, 348.0, 234.0, 390.0, 125.5, 390.0 ],
+					"order" : 1,
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-131", 0 ],
+					"midpoints" : [ 510.5, 210.0, 679.166655999999989, 210.0 ],
+					"order" : 0,
+					"source" : [ "obj-37", 0 ]
 				}
 
 			}
@@ -2108,7 +2152,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-54", 0 ],
+					"midpoints" : [ 957.5, 562.0, 533.5, 562.0 ],
 					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"source" : [ "obj-42", 0 ]
 				}
 
 			}
@@ -2143,6 +2195,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 1 ],
+					"midpoints" : [ 894.5, 355.0, 1213.5, 355.0 ],
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -2274,6 +2327,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 1 ],
+					"midpoints" : [ 830.5, 531.0, 505.5, 531.0 ],
 					"order" : 1,
 					"source" : [ "obj-67", 0 ]
 				}
@@ -2282,6 +2336,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-53", 1 ],
+					"midpoints" : [ 830.5, 449.5, 789.5, 449.5 ],
 					"order" : 0,
 					"source" : [ "obj-67", 0 ]
 				}
@@ -2427,7 +2482,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "fluid.transientslice~.mxo",
+				"name" : "fluid.hpss~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -2467,9 +2522,9 @@
 		"styles" : [ 			{
 				"name" : "max6box",
 				"default" : 				{
-					"accentcolor" : [ 0.8, 0.839216, 0.709804, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"accentcolor" : [ 0.8, 0.839216, 0.709804, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2487,6 +2542,7 @@
 , 			{
 				"name" : "max6message",
 				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
@@ -2496,8 +2552,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "max6box",

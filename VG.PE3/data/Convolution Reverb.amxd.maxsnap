@@ -18,11 +18,11 @@
 				"Width" : 100.0,
 				"blob" : 				{
 					"Decay" : [ 100 ],
-					"Drop A" : [ "Macintosh HD:/Users/vin/Music/Ableton/Factory Packs/Max for Live Essentials/Max Audio Effect/Convolution Reverb/IRs/06 Bigger Spaces/BM7 West Church.aif" ],
 					"PersistenceA" : [ "" ],
+					"Size" : [ 100 ],
 					"PersistenceB" : [ "" ],
 					"PersistenceC" : [ "" ],
-					"Size" : [ 100 ]
+					"Drop A" : [ "Macintosh HD:/Users/vin/Music/Ableton/Factory Packs/Max for Live Essentials/Max Audio Effect/Convolution Reverb/IRs/06 Bigger Spaces/BM7 West Church.aif" ]
 				}
 
 			}
