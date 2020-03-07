@@ -44,7 +44,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 130.0, 476.0, 499.0, 22.0 ],
+					"patching_rect" : [ 130.0, 485.0, 499.0, 22.0 ],
 					"text" : "fluid.ampslice~ @absrampup 10 @absrampdown 100 @absthreshon -12 @absthreshoff -12"
 				}
 
@@ -168,7 +168,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 79.0, 572.0, 807.0 ],
+						"rect" : [ 309.0, 79.0, 572.0, 807.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -398,29 +398,6 @@
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 224.0, 219.0, 29.5, 22.0 ],
 									"text" : "/ 36"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-27",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 399.5, 219.0, 87.0, 20.0 ],
-									"text" : "Samples Long"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-25",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 260.5, 219.0, 137.0, 22.0 ],
-									"text" : "27944960."
 								}
 
 							}
@@ -1024,7 +1001,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 826042.452897017705254, "ticks" ],
-						"originaltempo" : 279.561424569827921,
+						"originaltempo" : 548819.947589786839671,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
